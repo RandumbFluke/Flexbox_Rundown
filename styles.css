@@ -5,7 +5,7 @@ body{
     background-color: limegreen;
 }
 
-/* header sytles */
+/* header styles */
 
 header {
     background-color: hotpink;
@@ -29,7 +29,7 @@ ul {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    justify-content: flex-start;
+    justify-content: space-between;
 }
 
 .push {
