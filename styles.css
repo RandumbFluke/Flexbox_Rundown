@@ -36,6 +36,15 @@ ul {
     margin-left: auto;
 }
 
+li {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px;
+    margin: 0px 3 px;
+    border: 1px solid limegreen;
+    border-radius: 10px;
+    background-color: aliceblue;
+}
+
 /* section one flex grow and shrink */
 
 .section-one {
@@ -61,7 +70,7 @@ ul {
     background-color: lightgreen;
     
     height: 200px;
-    flex: 1 1 auto;
+    flex: 2 1 auto;
 }
 
 .box3 {
@@ -78,6 +87,9 @@ ul {
 .section-two {
     background-color: orangered;
     height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
 }
 
@@ -86,7 +98,13 @@ ul {
 .section-three {
     background-color: lightcoral;
     height: 800px;
-
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /*flex-direction: column;
+    align-items: center;*/
 }
 
 iframe { 
@@ -100,9 +118,20 @@ iframe {
 .section-four {
     background-color: darkslateblue;
     height: 500px;
-    
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
+/*Text colour*/
+.txt{
+    color: white;
+    text-align: center;
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 /* section 5 media items */
 
 .section-five {
