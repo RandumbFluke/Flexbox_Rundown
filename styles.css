@@ -2,20 +2,20 @@
 
 
 body{
-    background-color: limegreen;
+    background-color: #f2f2f2;
 }
 
 /* header styles */
 
 header {
-    background-color: hotpink;
+    background-color: #f29f05;
     padding: 10px 0px 10px 0px;
     
     
 }
 
 h1{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Roboto Mono', monospace;
     font-size: 60px;
     text-align: center;
 }
@@ -85,7 +85,7 @@ li {
 /* section 2 center item */
 
 .section-two {
-    background-color: orangered;
+    background-color: #bf0426;
     height: 700px;
     display: flex;
     align-items: center;
@@ -96,7 +96,7 @@ li {
 /* section 3 youtube video */
 
 .section-three {
-    background-color: lightcoral;
+    background-color: #d95a11;
     height: 800px;
     flex-wrap: wrap;
     display: flex;
@@ -116,7 +116,7 @@ iframe {
 /* section 4 embed audio */
 
 .section-four {
-    background-color: darkslateblue;
+    background-color: #bf0426;
     height: 500px;
     flex-wrap: wrap;
     display: flex;
@@ -135,7 +135,7 @@ iframe {
 /* section 5 media items */
 
 .section-five {
-    background-color: goldenrod;
+    background-color: #d95a11;
 }
 
 .media-container {
@@ -178,7 +178,7 @@ button:active {
 }
 
 footer {
-    background-color: rebeccapurple;
+    background-color: #f29f05;
     height: 30px;
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -188,7 +188,7 @@ footer {
 }
 
 .button-one-section{
-    background-color: cornflowerblue;
+    background-color: #bf0426;
     padding: 20px 0px;
     display: flex;
     justify-content: center;
@@ -208,7 +208,7 @@ footer {
   }
   
   .slider {
-    width: 300px;
+    width: 600px;
     text-align: center;
     overflow: hidden;
   }
@@ -234,7 +234,7 @@ footer {
     height: 10px;
   }
   .slides::-webkit-scrollbar-thumb {
-    background: black;
+    background: blue;
     border-radius: 10px;
   }
   .slides::-webkit-scrollbar-track {
@@ -302,6 +302,7 @@ footer {
     .slider > a {
       display: none;
     }
+  .slide-image{
+      border-radius: 10px;
   }
-  
-
+  }
